@@ -23,6 +23,23 @@
       font-size: 3em;
       color: #ff4d6d;
     }
+    .galeria {
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    .galeria img {
+      width: 200px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
   </style>
 </head>
 <body>
@@ -31,5 +48,16 @@
   <p>"No eres mamá… ¡pero eres una mamasita consagrada! Hermosa por fuera y aún más por dentro. Que Dios siga bendiciendo tu vida."</p>
   <p>🤣</p>
   <div class="heart">♥</div>
+
+  <!-- Galería de fotos -->
+  <div class="galeria">
+    <img src="imagenes/foto1.jpg" alt="Foto 1">
+    <img src="imagenes/foto2.jpg" alt="Foto 2">
+    <img src="imagenes/foto3.jpg" alt="Foto 3">
+    <img src="imagenes/foto4.jpg" alt="Foto 4">
+    <img src="imagenes/foto5.jpg" alt="Foto 5">
+    <img src="imagenes/foto6.jpg" alt="Foto 6">
+    <img src="imagenes/foto7.jpg" alt="Foto 7">
+  </div>
 </body>
 </html>
